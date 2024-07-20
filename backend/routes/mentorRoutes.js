@@ -8,7 +8,7 @@ function verifytoken(req,res,next){
     const token = req.headers.token;
     try {
         if(!token) throw 'unauthorized access';
-        let payload = jwt.verify(token,'ictapp');
+        let payload = jwt.verify(token,'ictsecretkey');
         if(!payload)throw 'unauthorized access';
         next()
     } catch (error) {
@@ -20,7 +20,8 @@ function verifytoken(req,res,next){
 router.use(express.json());
 // for creting new mentor
 
-router.post('/mentorform',verifytoken,async(req,res)=>{
+// router.post('/mentorform',verifytoken,async(req,res)=>{
+    router.post('/mentorform',async(req,res)=>{
 
     try {
        const data=req.body;

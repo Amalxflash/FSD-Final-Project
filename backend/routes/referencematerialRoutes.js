@@ -8,7 +8,7 @@ function verifytoken(req,res,next){
     const token = req.headers.token;
     try {
         if(!token) throw 'unauthorized access';
-        let payload = jwt.verify(token,'ictapp');
+        let payload = jwt.verify(token,'ictsecretkey');
         if(!payload)throw 'unauthorized access';
         next()
     } catch (error) {

@@ -4,16 +4,16 @@ const AboutUs = () => {
   return (
     <>
       {/* About Start */}
-
+      <div className="text-light" style={{backgroundColor: '#004080'}}>
       <div className="container-xxl py-5">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-              <h6 className="fs-5 bg-white text-start pe-3 "style={{fontFamily:'Roboto, sans-serif',fontWeight:'lighter'}}>
+              <h6 className="fs-5 text-light text-start pe-3 "style={{fontFamily:'Roboto, sans-serif',fontWeight:'lighter', opacity:'0.5'}}>
                 About Us
               </h6>
-              <h1 className="mb-4" style={{fontFamily:'Roboto, sans-serif'}}>Welcome to ICTAK</h1>
-              <h1 className="mb-4" style={{fontFamily:'Roboto, sans-serif'}}>Build your Career with ICTAK</h1>
+              <h1 className="mb-4 text-light" style={{fontFamily:'Roboto, sans-serif'}}>Welcome to ICTAK</h1>
+              <h1 className="mb-4 text-light" style={{fontFamily:'Roboto, sans-serif'}}>Build your Career with ICTAK</h1>
               <p className="mb-4">
                 ICT Academy of Kerala (ICTAK) is a social enterprise officially
                 launched on the 24th of June, 2014. The organization had a
@@ -42,7 +42,7 @@ const AboutUs = () => {
                   <p className="mb-0">⭐ Placement Guaranteed</p>
                 </div>
               </div>
-              <a className="btn btn-dark py-3 px-5 mt-2" href="#">
+              <a className="btn btn-dark mt-3 text-light" href="#" style={{opacity:'0.8'}}>
                 Know More
               </a>
             </div>
@@ -85,6 +85,7 @@ const AboutUs = () => {
             </large>
           </div>
         </div>
+      </div>
       </div>
       {/* About End */}
     </>

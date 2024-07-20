@@ -48,9 +48,10 @@ const Navbar = () => {
           </div>
           <a
             href="/login"
-            className="btn btn-dark py-4 px-lg-5 d-none d-lg-block"
+            className="nav-item nav-link hover"
+            
           >
-            Login
+           <button className="btn px-4 rounded-pill text-light" style={{backgroundColor: '#ff69b4'}}> Login</button>
           </a>
         </div>
       </nav>

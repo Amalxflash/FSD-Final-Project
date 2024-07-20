@@ -1,12 +1,8 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer' 
 
-const Contact = () => {
-  return (
+const ContactComponent = () => {
+  return(
     <>
-    <Navbar/>
-  
   {/* Contact Start */}
   <div className="container-xxl py-5">
     <div className="container">
@@ -114,10 +110,7 @@ const Contact = () => {
     </div>
   </div>
   {/* Contact End */}
-  <Footer/>
-</>
-
+  </>
   )
 }
-
-export default Contact
+export default ContactComponent

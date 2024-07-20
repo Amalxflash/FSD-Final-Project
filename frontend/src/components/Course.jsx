@@ -4,10 +4,11 @@ const Course = () => {
   return (
     <>
       {/* Courses Start */}
+      <div className="text-light" style={{backgroundColor:'#004080'}}>
       <div className="container-xxl py-5">
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h1 className="mb-5">Well-Liked Courses</h1>
+            <h1 className="mb-5 text-light">Well-Liked Courses</h1>
           </div>
           <div className="row g-4 justify-content-center">
             <div
@@ -240,6 +241,7 @@ const Course = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
       {/* Courses End */}
     </>

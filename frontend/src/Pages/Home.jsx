@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import AboutUs from '../components/AboutUs';
 import Course from '../components/Course';
+import ContactComponent from '../components/Contact_Component';
 import 'animate.css';
 import WOW from 'wow.js';
 
@@ -24,7 +25,7 @@ const Home = () => {
                 <h1 className="display-2 text-light">Grow Your Skill</h1>
                 <h1 className="display-3 text-light">Start Learning</h1>
                 <p className="lead">Begin your journey, gain a solid foundation, create great products, and advance your career.</p>
-                <button className="btn btn-lg btn-light rounded-pill ">Know More</button>
+                <button className="btn btn-lg rounded-pill text-light" style={{backgroundColor:'#ff69b4'}}>Discover More</button>
               </div>
             </div>
             <div className="col-lg-6 align-items-end">
@@ -123,6 +124,7 @@ const Home = () => {
         </div>
       </div>
       {/* Team End */}
+      <ContactComponent />
       <Footer />
     </>
   );

@@ -8,7 +8,7 @@
 //       <Navbar />
 //       {/* Header Start */}
 //       <div>
-//         <div className="px-4 py-5 text-center title-header">
+//         <div className="px-4 py-5 text-center">
 //           <h1 className="m-4 text-dark">Login</h1>
 //         </div>
 //       </div>

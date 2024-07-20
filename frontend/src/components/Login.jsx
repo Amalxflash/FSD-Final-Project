@@ -62,13 +62,6 @@ const Login = () => {
   return (
     <>
     <Navbar />
-      {/* Header Start */}
-      <div>
-        <div class="px-4 py-5 text-center title-header">
-          <h1 className="m-4 text-dark">Login</h1>
-        </div>
-      </div>
-      {/* Header End */}
     <div>
 
 <Typography variant="h5" gutterBottom style={{textAlign:'center',marginTop:'200px',fontFamily:'fantasy'}}>Login Page</Typography>

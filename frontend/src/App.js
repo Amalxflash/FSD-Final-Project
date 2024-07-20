@@ -37,7 +37,7 @@ function App() {
         <Route path='/courses' element={<Courses/>} />
         <Route path='/carrers' element={<Carrers />} />
         <Route path='/contact' element={<Contact/>} />
-        {/* <Route element= {<PrivateRoutes />}> */}
+        <Route element= {<PrivateRoutes />}>
         <Route path="/submissionlist/:mentorname"element={<SubmissionList/>}/>
         <Route path={'/admindashboard'} element={<AdminDashboard/>}/>      
         <Route path={'/projectform'} element={<AddProjectForm method="post" data={{topic:'',description:'',image:'',mentor:''}}/>}/>
@@ -46,7 +46,7 @@ function App() {
         <Route path="/submissionlist/:mentorname"element={<SubmissionList/>}/>
         <Route path="/viewsubmissions/:name" element={<SubmissionsPage/>}/>
         <Route path="/materialview" element={<ReferenceMaterial/>}/>
-        {/* </Route> */}
+        </Route>
       </Routes>
    
     </div>

@@ -12,6 +12,9 @@ const createatoken=(name)=>{
 }
 
 
+// route for creating admin
+
+
 // route for login
 
 
